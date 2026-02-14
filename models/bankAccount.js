@@ -16,7 +16,8 @@ const accountSchema = new mongoose.Schema({
     },
     accountName:{
         type:String,
-        required:[true, 'Please provide account name']
+        default:'Crypto'
+        // required:[true, 'Please provide account name']
     },
     accountType:{
         type:String,
